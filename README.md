@@ -2,6 +2,8 @@
 
 Public demo website for SINGO 20# carbon steel ball valves.
 
+Live demo: <https://cvdgauss-beep.github.io/singo-csbv-site/>
+
 ## Status
 
 - Demonstration and layout review only.
