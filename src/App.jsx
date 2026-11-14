@@ -234,7 +234,6 @@ export function App() {
       <section
         className="hero"
         id="top"
-        style={{ "--hero-image": `url("${ASSET_BASE}assets/hero_final.webp")` }}
       >
         <div className="hero-inner">
           <div className="hero-copy">
@@ -244,7 +243,6 @@ export function App() {
               <br />
               {t.h1b}
             </h1>
-            <p className="hero-sub">{t.sub}</p>
             <div className="hero-ctas">
               <button className="btn btn-accent btn-lg" onClick={() => openQuote()}>
                 {t.quote}
@@ -259,6 +257,16 @@ export function App() {
                 <span key={i}>{s}</span>
               ))}
             </div>
+
+          </div>
+          <div className="hero-media">
+            <img
+              className="hero-product-image"
+              src={`${ASSET_BASE}assets/hero_products.webp`}
+              alt="SINGO 20# carbon steel ball valve product range"
+              loading="eager"
+              fetchPriority="high"
+            />
           </div>
         </div>
       </section>
