@@ -2,6 +2,8 @@
 
 Public demo website for SINGO 20# carbon steel ball valves.
 
+The current review theme is white industrial with graphite text and yellow accents.
+
 Live demo: <https://cvdgauss-beep.github.io/singo-csbv-site/>
 
 ## Status
